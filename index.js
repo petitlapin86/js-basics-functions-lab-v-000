@@ -19,3 +19,4 @@ describe('index.js', function() {
     if (blocks < 42) {
       return 42 - blocks;
   }
+}
