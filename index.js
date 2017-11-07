@@ -10,9 +10,9 @@
 }
 
 function distanceFromHqInFeet (feet) {
-  if (feet > 42) {
-    return feet - 42; }
+  if (feet > 264) {
+    return feet - 264; }
  else {
-   return 42 - feet;
+   return 264 - feet;
 }
 }
