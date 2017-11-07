@@ -14,15 +14,12 @@ function distanceFromHqInFeet (blocks) {
   return distanceFromHqInBlocks(blocks) * 264;
 }
 
-function distanceTravelledInFeet () {
+function distanceTravelledInFeet (start, destination) {
+  if (start < destination) {
+    return (destination - start) * 264;
+  } else {
+    return (start - destination) * 264;
+  }
   
-}
 
 
-function calculateVertical (feet) {
-  if (feet > 264) {
-    return feet - 264; }
- else {
-   return 264 - feet;
-}
-}
