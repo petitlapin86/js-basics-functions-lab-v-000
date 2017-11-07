@@ -17,5 +17,5 @@ describe('index.js', function() {
 
   function distanceFromHqInBlocks(blocks) {
     if (blocks <= 42) {
-      return blocks;
+      return blocks - 42;
   }
