@@ -9,7 +9,14 @@
   }
 }
 
-function distanceFromHqInFeet (feet) {
+
+function distanceFromHqInFeet (blockNumber) {
+  return distanceFromHqInBlocks(blocks) * 264;
+}
+
+
+
+function calculateVertical (feet) {
   if (feet > 264) {
     return feet - 264; }
  else {
